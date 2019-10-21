@@ -1,0 +1,51 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-weight: 100;
+    text-align: center;
+    background-color: #121212;
+    background-size: cover;
+}
+
+a {
+    color: #00B7FF;
+}
+
+html, body {
+    height: 100%;
+    color: #000 !important;
+}
+
+.container {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 100px;
+    margin-top: 27vh;
+    color: white;
+}
+
+.title-red {
+  color: #d32f2f;
+}
+
+.title-red {
+  color: #d32f2f;
+}
+
+.title-green {
+  color: #388e3c;
+}
+
+hr {
+    border-top: 2px solid #000;
+}
