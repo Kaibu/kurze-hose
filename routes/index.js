@@ -17,9 +17,9 @@ router.get('/', function (req, res, next) {
       var parsed = JSON.parse(body);
 
       if(parsed.main.temp_min < config.resistance.cold) {
-        res.render('no', {title: 'Kurze Hose ?'})
+        res.render('no', {title: 'Kurze Hose ?', temp: parsed.main.temp_min, resistance: config.resistance})
       } else {
-        res.render('yes', {title: 'Kurze Hose ?'})
+        res.render('yes', {title: 'Kurze Hose ?', temp: parsed.main.temp_min, resistance: config.resistance})
       }
     })
 })
